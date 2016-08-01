@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+<title>BBC Clone</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<div class="container">
+  <div class="top-bar">
+    <div class="fixed-width">
+      <div id="logo">
+        <img src="http://static.bbci.co.uk/frameworks/barlesque/3.20.1/orb/4/img/bbc-blocks-dark.png" />
+      </div>
+      <div id="sign-in">
+        <img src="http://static.bbci.co.uk/id/0.32.00/img/bbcid_orb_signin_dark.png"/> Sign In
+      </div>
+      <ul>
+        <li> News </li>
+        <li> Sport</li>
+        <li> Wheather</li>
+        <li> Shop </li>
+        <li> Earth </li>
+        <li> Travel </li>
+        <li> More </li>
+      </ul>
+      <div id="search-box">
+        <input type="text" placeholder="Search" />
+      </div>
+    </div> <!---fixed-width--->
+  </div> <!---top-bar--->
+  
+  
+  <div class="news-bar"> 
+  <div class="fixed-width">
+    <div id="logo-news">
+    <img src="http://static.bbci.co.uk/news/1.138.0414/img/brand/generated/news-light.svg" />
+    </div>
+    
+    </div><!---fixed-width--->
+  </div><!---news-bar--->
+  
+  
+  <div class="category-bar"> 
+    <div class="fixed-width">
+      
+      <ul>
+        <li> Home </li>
+        <li> Video </li>
+        <li> World </li>
+        <li> UK </li>
+        <li> Bussiness </li>
+        <li> Tech </li>
+        <li> Science </li>
+        <li> Entertainment & Arts </li>
+        <li> Health </li>
+        <li> World News TV </li>
+        <li> More </li>
+      </ul>
+      
+      
+      
+      
+    </div><!---fixed-width--->
+  </div><!---category-bar--->
+  
+  
+  <div class="location-bar">
+    <div class="fixed-width">
+      <ul>
+        <li class="bold"> UK </li>
+        <li> England </li>
+        <li> N. Ireland </li>
+        <li> Scotland </li>
+        <li> Wales </li>
+        <li> Politics</li>
+      </ul>
+      
+      
+      </div><!---fixed-width--->
+  </div> <!---location-bar--->
+  
+  
+  <div class="content-box">
+    <div class="fixed-width">
+      <h1> Life term for IS-inspired Tube attacker </h1>
+      <img class="main-photo" src="http://ichef.bbci.co.uk/news/624/cpsprodpb/E0CF/production/_89915575_mire_met.jpg" />
+      <p> A man who attacked Tube passengers with a knife in east London and tried to behead one of them, is jailed for life. </p>
+    <p id="content-links">
+    <a href=""> <img class="play-button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD///+Tk5N7e3uPj4/ExMRjY2Pq6uru7u7Ly8siIiL19fX6+vq4uLiampqpqanU1NTe3t5UVFSwsLBra2tDQ0M6OjqkpKRxcXHb29sPDw9dXV0dHR2+vr5KSkoICAiFhYUrKyszMzN3d3dHR0eZkYhkAAADuElEQVR4nO3d65LSUBCFUZoJExBU8I5XdOb9n9E/KctyBELO7u69M/09wMmssspQ55aFzb1F9h/gXgn1K6F+JdSvhPo9L+GqW86jbnVG2C3mUndGuMz+w2AtSyhfCfUroX4l1K+E+pVQvxLqV0L9SqhfCfUroX4l1K+E+pVQvxLqV0L9Sqifp/ADYIz2PIWn42fAKK15Cu9sTfDP6Cs0+wQYpy1vob0CDNSUu9BWgJFa8hda/wIw1vQChLa7Bww2uQhh7i65GKG9BAw3sSChHb8CBpxUlNDW3wEjTilMaPYAGHJCgUL7CBjz9iKFtvkBGPXWQoXW/wIMe2OxwoyXf7AwYfIgXGjfACPfUrzQjrG/xBOEtg19+WcIze4Ao48tR2ivAcOPLEloe8D448oS2jrq5Z8mNHsHeMSIEoVB03CZwphpuFShHX4CHnOlXKFtvwCec7lkodkJ8KCLpQvtLeBJl8oXmvMaHIHQ1u8BDzsbg9B2ntNwFELXaTgSoW0Az/t/LEI7eP0SpxHazunlzyP0evkzCX3W4KiELmtwXELb4l/+ZEKHaTg6IXwajk+IfvkTCq2H7oZjFGKn4TiFyDU4UiFwDY5VaD3q5U8rtO0bwJ+wYBaifokzCzHTcNRC2wOm4biF1j/OXQh4+dMLm9fg+IWta3ACwsY1OAWh7Vpe/hLCpq3wIsKG/29EhJvpe+E0hC0LNxLCpsU3AWHjOQZ+Yes8OL2weS2DXdh+JoxbiFhTpBZCzmYyCzEb+4iFoM2ZvELUOXdWIe6uAlIh8JQbpxC5X5FSeAI8/E+EQvChIT7hAXzwi04IP7zHJsQfwOQSehyipRL2HtuhmYQ+u2iJhE5nEnmEXudKWYSofQlPIxEe/E6VcAg9L+ihELpeskQgdL4rI1/YO5+yTBe6n5TNFvrfO5QsDLg7KlUYcvlnphCxa+16iULvA8BDecIT4AljyhL6/dL+tySh23nKp+UII++lTRGG3i2cINzF3g8dL4y+4ztcuI++HTJaGHjJ11Cw8AQY9sZChXGv+b+KFKLXzcYVKIy+9HIoTpj11ZMwYdrN80FC7wm1C8UI/W6fuV6IMOci76EIYe6XWPyFvjd5Xc9duE/7KMKQtzDxwxZDzsLMj5MM+Qr9b7a8nqfwnuCLXfXtvDlUQv1KqF8J9SuhfiXUr4T6lVC/EupXQv1KqF8J9SuhfiXUr4T6lVC/EupXQv1KqN/zFRJsZgLVnRGuuuU86lZnhPOshPqVUL8S6ldC/Uqo3285FEr0p3AEVQAAAABJRU5ErkJggg=="> Tube attack victim 'lucky and unlucky' <a/> <br/>
+      <a href=""> <img class="play-button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD///+Tk5N7e3uPj4/ExMRjY2Pq6uru7u7Ly8siIiL19fX6+vq4uLiampqpqanU1NTe3t5UVFSwsLBra2tDQ0M6OjqkpKRxcXHb29sPDw9dXV0dHR2+vr5KSkoICAiFhYUrKyszMzN3d3dHR0eZkYhkAAADuElEQVR4nO3d65LSUBCFUZoJExBU8I5XdOb9n9E/KctyBELO7u69M/09wMmssspQ55aFzb1F9h/gXgn1K6F+JdSvhPo9L+GqW86jbnVG2C3mUndGuMz+w2AtSyhfCfUroX4l1K+E+pVQvxLqV0L9SqhfCfUroX4l1K+E+pVQvxLqV0L9Sqifp/ADYIz2PIWn42fAKK15Cu9sTfDP6Cs0+wQYpy1vob0CDNSUu9BWgJFa8hda/wIw1vQChLa7Bww2uQhh7i65GKG9BAw3sSChHb8CBpxUlNDW3wEjTilMaPYAGHJCgUL7CBjz9iKFtvkBGPXWQoXW/wIMe2OxwoyXf7AwYfIgXGjfACPfUrzQjrG/xBOEtg19+WcIze4Ao48tR2ivAcOPLEloe8D448oS2jrq5Z8mNHsHeMSIEoVB03CZwphpuFShHX4CHnOlXKFtvwCec7lkodkJ8KCLpQvtLeBJl8oXmvMaHIHQ1u8BDzsbg9B2ntNwFELXaTgSoW0Az/t/LEI7eP0SpxHazunlzyP0evkzCX3W4KiELmtwXELb4l/+ZEKHaTg6IXwajk+IfvkTCq2H7oZjFGKn4TiFyDU4UiFwDY5VaD3q5U8rtO0bwJ+wYBaifokzCzHTcNRC2wOm4biF1j/OXQh4+dMLm9fg+IWta3ACwsY1OAWh7Vpe/hLCpq3wIsKG/29EhJvpe+E0hC0LNxLCpsU3AWHjOQZ+Yes8OL2weS2DXdh+JoxbiFhTpBZCzmYyCzEb+4iFoM2ZvELUOXdWIe6uAlIh8JQbpxC5X5FSeAI8/E+EQvChIT7hAXzwi04IP7zHJsQfwOQSehyipRL2HtuhmYQ+u2iJhE5nEnmEXudKWYSofQlPIxEe/E6VcAg9L+ihELpeskQgdL4rI1/YO5+yTBe6n5TNFvrfO5QsDLg7KlUYcvlnphCxa+16iULvA8BDecIT4AljyhL6/dL+tySh23nKp+UII++lTRGG3i2cINzF3g8dL4y+4ztcuI++HTJaGHjJ11Cw8AQY9sZChXGv+b+KFKLXzcYVKIy+9HIoTpj11ZMwYdrN80FC7wm1C8UI/W6fuV6IMOci76EIYe6XWPyFvjd5Xc9duE/7KMKQtzDxwxZDzsLMj5MM+Qr9b7a8nqfwnuCLXfXtvDlUQv1KqF8J9SuhfiXUr4T6lVC/EupXQv1KqF8J9SuhfiXUr4T6lVC/EupXQv1KqN/zFRJsZgLVnRGuuuU86lZnhPOshPqVUL8S6ldC/Uqo3285FEr0p3AEVQAAAABJRU5ErkJggg=="> How Leytonstone Tube attack unfolded <a/> <br/>
+        <a href=""> <img class="play-button" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD///+Tk5N7e3uPj4/ExMRjY2Pq6uru7u7Ly8siIiL19fX6+vq4uLiampqpqanU1NTe3t5UVFSwsLBra2tDQ0M6OjqkpKRxcXHb29sPDw9dXV0dHR2+vr5KSkoICAiFhYUrKyszMzN3d3dHR0eZkYhkAAADuElEQVR4nO3d65LSUBCFUZoJExBU8I5XdOb9n9E/KctyBELO7u69M/09wMmssspQ55aFzb1F9h/gXgn1K6F+JdSvhPo9L+GqW86jbnVG2C3mUndGuMz+w2AtSyhfCfUroX4l1K+E+pVQvxLqV0L9SqhfCfUroX4l1K+E+pVQvxLqV0L9Sqifp/ADYIz2PIWn42fAKK15Cu9sTfDP6Cs0+wQYpy1vob0CDNSUu9BWgJFa8hda/wIw1vQChLa7Bww2uQhh7i65GKG9BAw3sSChHb8CBpxUlNDW3wEjTilMaPYAGHJCgUL7CBjz9iKFtvkBGPXWQoXW/wIMe2OxwoyXf7AwYfIgXGjfACPfUrzQjrG/xBOEtg19+WcIze4Ao48tR2ivAcOPLEloe8D448oS2jrq5Z8mNHsHeMSIEoVB03CZwphpuFShHX4CHnOlXKFtvwCec7lkodkJ8KCLpQvtLeBJl8oXmvMaHIHQ1u8BDzsbg9B2ntNwFELXaTgSoW0Az/t/LEI7eP0SpxHazunlzyP0evkzCX3W4KiELmtwXELb4l/+ZEKHaTg6IXwajk+IfvkTCq2H7oZjFGKn4TiFyDU4UiFwDY5VaD3q5U8rtO0bwJ+wYBaifokzCzHTcNRC2wOm4biF1j/OXQh4+dMLm9fg+IWta3ACwsY1OAWh7Vpe/hLCpq3wIsKG/29EhJvpe+E0hC0LNxLCpsU3AWHjOQZ+Yes8OL2weS2DXdh+JoxbiFhTpBZCzmYyCzEb+4iFoM2ZvELUOXdWIe6uAlIh8JQbpxC5X5FSeAI8/E+EQvChIT7hAXzwi04IP7zHJsQfwOQSehyipRL2HtuhmYQ+u2iJhE5nEnmEXudKWYSofQlPIxEe/E6VcAg9L+ihELpeskQgdL4rI1/YO5+yTBe6n5TNFvrfO5QsDLg7KlUYcvlnphCxa+16iULvA8BDecIT4AljyhL6/dL+tySh23nKp+UII++lTRGG3i2cINzF3g8dL4y+4ztcuI++HTJaGHjJ11Cw8AQY9sZChXGv+b+KFKLXzcYVKIy+9HIoTpj11ZMwYdrN80FC7wm1C8UI/W6fuV6IMOci76EIYe6XWPyFvjd5Xc9duE/7KMKQtzDxwxZDzsLMj5MM+Qr9b7a8nqfwnuCLXfXtvDlUQv1KqF8J9SuhfiXUr4T6lVC/EupXQv1KqF8J9SuhfiXUr4T6lVC/EupXQv1KqN/zFRJsZgLVnRGuuuU86lZnhPOshPqVUL8S6ldC/Uqo3285FEr0p3AEVQAAAABJRU5ErkJggg=="> Jury sees Leytonstone Tube attack video
+ <a/>
+          </p>
+        
+      
+
+
+    </div><!---fixed-width--->
+  </div> <!---content-box--->
+  </div> <!---container--->
+  
+      <div class="watch-bar">
+        <h2> Watch/Listen </h2>
+        <a href=""><img src="http://i.imgur.com/2S2UEFI.png" />
+      </div>
+      </div><!---watch-bar-->
+  
+</body>
+</html>
